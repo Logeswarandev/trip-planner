@@ -1,12 +1,20 @@
 import React from "react";
 import { FaMapMarkerAlt, FaStar } from "react-icons/fa";
+import ocean from "/photo/ocean.avif";
+import maldives from "/photo/maldives.webp";
+import white from "/photo/white.webp";
+import newyork from "/photo/newyork.jpg";
+import tokyo from "/photo/tokyo.webp";
+import royal from "/photo/royal.jpeg";
+import swi from "/photo/swi.jpg";
+
 
 function Hotels() {
   const hotels = [
     {
       name: "Ocean Paradise Resort",
       location: "Bali, Indonesia",
-      image: "/photo/ocean.avif",
+      image: ocean,
       rating: 4.8,
       price: "From $120 "
     },
@@ -20,42 +28,42 @@ function Hotels() {
     {
       name: "Maldives Coral Villa",
       location: "Maldives",
-      image: "/photo/maldives.webp",
+      image: maldives,
       rating: 4.9,
       price: "From $250"
     },
     {
       name: "Santorini White House",
       location: "Santorini, Greece",
-      image: "/photo/white.webp",
+      image: white,
       rating: 4.6,
       price: "From $180"
     },
     {
       name: "NYC Skylight Hotel",
       location: "New York, USA",
-      image: "/photo/newyork.jpg",
+      image: newyork,
       rating: 4.5,
       price: "From $150"
     },
     {
       name: "Tokyo Imperial Stay",
       location: "Tokyo, Japan",
-      image: "/photo/tokyo.webp",
+      image: tokyo,
       rating: 4.8,
       price: "From $160"
     },
     {
       name: "Dubai Royal Palace",
       location: "Dubai, UAE",
-      image: "/photo/royal.jpeg",
+      image: royal,
       rating: 4.9,
       price: "From $200"
     },
     {
       name: "Swiss Mountain Lodge",
       location: "Switzerland",
-      image: "/photo/swi.jpg",
+      image: swi,
       rating: 4.7,
       price: "From $170"
     }

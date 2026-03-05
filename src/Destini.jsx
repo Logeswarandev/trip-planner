@@ -4,18 +4,23 @@ import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-
+import ba from "/photo/bali.webp";
+import R from "/photo/R.jpg";
+import mald1 from "/photo/mald1.jpg";
+import santo from "/photo/santo.avif";
+import new1 from "/photo/new1.jpg";
+import tokyo from "/photo/tokyo.webp";
+import burj from "/photo/Burj Khalifa.jpg";
 function Destini() {
-  const destinations = [
-    { name: "Bali, Indonesia", image: "/photo/bali.webp" },
-    { name: "Paris, France", image: "/photo/R.jpg" },
-    { name: "Maldives", image: "/photo/mald1.jpg" },
-    { name: "Santorini, Greece", image: "/photo/santo.avif" },
-    { name: "New York, USA", image: "/photo/new1.jpg" },
-    { name: "Tokyo, Japan", image: "/photo/Tapeta Tokyo _ Osvetljeno mesto in Mount Fuji.jpg" },
-    { name: "Dubai, UAE", image: "/photo/Burj Khalifa.jpg" }
-  ];
-
+ const destinations = [
+  { name: "Bali, Indonesia", image: ba },
+  { name: "Paris, France", image: R },
+  { name: "Maldives", image: mald1 },
+  { name: "Santorini, Greece", image: santo },
+  { name: "New York, USA", image: new1 },
+  { name: "Tokyo, Japan", image: tokyo },
+  { name: "Dubai, UAE", image: burj }
+];
   return (
     <div className="destination-section">
       <h2 className="section-title">Top Destinations...</h2>
